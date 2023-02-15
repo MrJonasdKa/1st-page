@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="form.css" />
+        <meta content="text/html; charset=utf-8" />
+        <title>Formulario</title>
+
+    </head>
+
+    <body>
+
+        <form action="../Login/Login.html">
+            <h1>Registro de usuario</h1>
+            <p>Ingrese sus nombres: </p><input type="text" id="nom" onFocus="limpiar(this)"></input></p>
+            <p>Ingrese sus apellidos: </p><input type="text" id="aps" onFocus="limpiar(this)"></input></p>
+            <p>Contraseña de su Pedido: </p><input type="password" id="psw" onFocus="limpiar(this)"></input></p>
+        
+            <p>numero de pedidos : </p><input type="number" id="num" onFocus="limpiar(this)"></input></p>
+            <p>Email :</p><input type="email" id="email" onFocus="limpiar(this)"></input></p>
+            <p>Seleccione que desea </p>
+
+            <input type="checkbox" name="t" id="dep" value="Hamburguesa Clasica">Hamburguesa Clasica
+            <input type="checkbox" name="t" id="dep" value="Hamburgesa Bacon and cheese">Hamburguesa Bacon and cheese 
+            <input type="checkbox" name="t" id="dep" value="urgueSA BBQA">BurgueSA BBQA 
+            <input type="checkbox" name="t" id="dep1" value="Pollo">Pollo
+
+            <p><input type="submit" value="Ver sus datos"></input></p>
+
+        </form>
+
+    <script src="java.js"> </script>
+
+    </body>
+
+</html>

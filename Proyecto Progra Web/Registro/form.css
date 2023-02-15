@@ -1,0 +1,11 @@
+body{
+   
+    background-image: url("https://previews.123rf.com/images/kchung/kchung2009/kchung200900049/155513226-realistas-deliciosas-hamburguesas-de-pollo-ilustraci%C3%B3n-3d-aisladas-sobre-fondo-beige.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  form{
+    text-align: center;
+  }

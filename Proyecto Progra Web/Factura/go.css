@@ -1,0 +1,44 @@
+
+h2#xd{
+font-family:algerian;
+margin:auto;
+width:110px;
+border-style: solid;
+border-color: blue;
+border-width: 4px;
+margin-top: 15px;
+display: flex;
+}
+td#borde{
+    border-style: solid;
+border-color: red;
+border-width: 4px;
+
+}
+h2#DET{
+text-decoration:underline;
+font-style:italic;
+}
+div#po{
+text-decoration:overline;
+}
+div#ra{
+font-family:"Harrington";
+color: green;
+}
+p#img{
+width:80px;
+}
+blockquote{
+text-decoration: line-through;
+}
+tr#tabla{
+text-decoration:underline ;
+}
+body{
+background-image: url("https://ugc.kn3.net/i/origin/http://1.bp.blogspot.com/-kji_IUoeaQc/UmflPLXHCnI/AAAAAAAABW0/IWwZjqrzwxk/s1600/76.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

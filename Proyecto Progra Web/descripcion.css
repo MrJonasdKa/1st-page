@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/528/471/non_2x/delicious-fast-food-menu-template-square-frame-in-gray-background-vector.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ul#lista{
+    text-align: center; 
+    margin: auto;
+}
+li{
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    font-family: algerian;
+}
+img{
+color: red;
+border-radius: 15px;
+border: solid;
+margin: auto;
+width: 1500px;
+height: 1200px;
+display: flex;
+   align-items: center;
+   justify-content: center;
+}
+h1{
+    font-size: 300px;
+    text-align: center;
+    color: green;  
+    font-family: algerian;  
+}
+
+
